@@ -1,5 +1,0 @@
-# Service Message to get stored licences
-# REQUEST
----
-# RESPONSE
-string[] licences

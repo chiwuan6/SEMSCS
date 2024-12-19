@@ -1,6 +1,0 @@
-# Service Message to get device connection information
-# REQUEST
----
-# RESPONSE
-string device
-bool connected

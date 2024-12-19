@@ -1,6 +1,0 @@
-# Service Message to get bluetooth scan of nearby devices
-# REQUEST
----
-# RESPONSE
-string[] devices
-bool[] validity
