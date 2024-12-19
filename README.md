@@ -46,7 +46,6 @@ Use following command to run this gaitech_bci_teleop
 $ rosrun gaitech_bci_teleop bci_teleop
 
 
-
 Depending on your system you might need to install following Dependencies:  
 python-avertuseegheadset (get it from Gaitech Robotics along with licence key if you already have H10C EEG headset)    
 pyqtgraph  
@@ -54,6 +53,8 @@ python-qt4
 numpy  
 scipy  
 gstreamer-1.0  
+
+For details on the model usage and training strategies, please refer to the paper.
 
 
 
