@@ -12,7 +12,7 @@ $ git clone https://github.com/chiwuan6/SEMSCS
 $ cd ../  
 $ catkin_make  
 
-3.source the workspace environment:  
+3.Source the workspace environment:  
 $ source ~/gaitech_bci_ws/devel/setup.bash
 
 4.Run the ROS launch file:
@@ -33,22 +33,22 @@ $ rosrun gaitech_bci_tools view_bci_experiment
 Make_experiment:
 $ rosrun gaitech_bci_tools make_experiment –i filename.csv –o experiment_video
 
-video_experiment_builder:
+Video_experiment_builder:
 $ rosrun gaitech_bci_tools video_experiment_builder
 
-rosbag_matlab:
+Rosbag_matlab:
 $ rosrun gaitech_bci_tools rosbag_matlab –i input.bag –o output.mat
 
-rosbag_csv:
+Rosbag_csv:
 $ rosrun gaitech_bci_tools rosbag_csv –i input.bag –o output.
 
 rosbag_mne:
 $ rosrun gaitech_bci_tools rosbag_matlab –i input.bag –o 
 
-view_psd:
+View_psd:
 $ rosrun gaitech_bci_tools view_psd bci_data:=/gaitech_bci_device_1/data_comref
 
-view_image:
+View_image:
 $ rosrun gaitech_bci_tools view_image _frequency:=10_background:=blue_foreground:=white _type:=2
 
 Use following command to run this gaitech_bci_teleop：
